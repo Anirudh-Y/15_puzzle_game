@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+/* intro */
+/* intro */
+.heading {
+  margin: 0;
+  padding: 50px;
+  font-weight:bolder;
+  font-size: 3rem;
+  color: white;
+  background-color: #5C33F6;
+}
+
+button {
+  margin: 30px;
+  margin-top: 50px;
+  margin-bottom: 0;
+  position: relative;
+}
+
+button:hover:after {
+  content: attr(data-descr);
+  position: absolute;
+  left: 10px;
+  top: 40px;
+  min-width: 200px;
+  border: 1px #aaaaaa solid;
+  border-radius: 10px;
+  background-color: pink;
+  padding: 12px;
+  color: #000000;
+  font-size: 14px;
+}
+
+
+/* .game */
+/* .game */
+.game {
+  
+  margin: 0 600px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.time , .count
+{
+  font-weight: bolder;
+  font-size: 40px;
+  color: #2541B2;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 50px 0;
+}
+
+.box {
+  margin: 10px 10px;
+  padding: 50px 10px;
+  border-style: solid;
+  border-radius: 100px;
+  background-color: indianred;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: bolder;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+
+.instructions
+{ 
+  margin-top: 20px;
+  padding-bottom: 70px;
+ background-color: #FF94CC;
+}
+.keys
+{
+  padding: 10px 20px;
+  font-size:x-large;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 100px;
+}
+
+/* media files */
+/* media files */
+
+@media only screen and (max-width: 700px) {
+  .info {
+    display: block;
+    margin: 0;
+    margin-top: 20px;
+  }
+  .instructions{
+    display: none;
+  }
+  .game {
+    
+    margin: 0 30px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+  .box {
+    margin: 0 5px;
+
+    padding: 5px;
+    border-style: solid;
+    background-color: indianred;
+  }
+}
+
+@media only screen and (max-width: 1814px) and (min-width: 700px) {
+  .info {
+    display: block;
+    margin: 0;
+    margin-top: 20px;
+  }
+  .game {
+    
+    margin: 0 200px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+  .box {
+    margin: 10px 5px;
+
+    padding: 20px 0;
+    border-style: solid;
+    background-color: indianred;
+  }
+  .instructions{
+    display: none;
+  }
+}
