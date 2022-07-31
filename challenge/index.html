@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="https://cdn.icon-icons.com/icons2/2474/PNG/512/puzzle_icon_149707.png">
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+
+    <!-- CSS self -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>C H A L L E N G E</title>
+  </head>
+  <body>
+    <!-- //Introduction -->
+    <section id="intro">
+      <h1>C H A L L E N G E</h1>
+      <p>DESCRIPTION : The digits at correct places will become black . Good Luck.</p>
+      <button data-descr="Start the game" class="btn btn-success">S T A R T</button>
+      <a href="index.html"><button data-descr="button for new game" class="btn btn-dark">NEW CHALLENGE GAME</button></a>
+    </section>
+
+    <!-- //Game -->
+    <section id="game">
+      <div class="info">
+        <div class="time">TIME in sec</div>
+        <div class="count">CLICK count</div>
+    </div>
+        <div class="game">
+          <div class="box boxes1" id="box11">1</div>
+          <div class="box boxes2" id="box12">2</div>
+          <div class="box boxes3" id="box13">3</div>
+          <div class="box boxes4" id="box14">4</div>
+          <div class="box boxes5" id="box21">5</div>
+          <div class="box boxes6" id="box22">6</div>
+          <div class="box boxes7" id="box23">7</div>
+          <div class="box boxes8" id="box24">8</div>
+          <div class="box boxes9" id="box31">9</div>
+          <div class="box boxes10" id="box32">10</div>
+          <div class="box boxes11" id="box33">11</div>
+          <div class="box boxes12" id="box34">12</div>
+          <div class="box boxes13" id="box41">13</div>
+          <div class="box boxes14" id="box42">14</div>
+          <div class="box boxes15" id="box43">15</div>
+          <div class="box boxes16" id="box44">0</div>
+          
+        </div>
+        <div class="instructions">
+          <button class="keys" data-descr="to slide number up">W</button>
+          <button class="keys"  data-descr="to slide number left">A</button>
+          <button class="keys"  data-descr="to slide number right">S</button>
+          <button class="keys"  data-descr="to slide number down">D</button>
+      </div>
+    </section>
+
+    <!-- //footer -->
+    <section id="footer"></section>
+  </body>
+
+  <!-- Bootstrap javascrip -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"
+  ></script>
+
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <!-- javascript self -->
+  <script src="index.js"></script>
+</html>
